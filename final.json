@@ -1,0 +1,2099 @@
+{
+    "bookingdata": {
+        "id": 57,
+        "agentId": "EZA1024",
+        "bookingId": "EZB1056",
+        "system": "Sabre",
+        "triptype": "Return",
+        "pnr": "DBFMXY",
+        "airlinespnr": "SEI34R",
+        "carrier_name": "TURKISH AIRLINES",
+        "carrier_code": "TK",
+        "depfrom": "DAC",
+        "arrto": "ECN",
+        "refundable": "1",
+        "instant_payment": null,
+        "issue_permit": null,
+        "status": "Ticketed",
+        "payment_status": "full",
+        "netfare": 846948,
+        "grossfare": 846948,
+        "name": "KAWSER HOSSAIN",
+        "email": "INFO@ETRIPZONE.COM",
+        "phone": "/01409965999",
+        "adultcount": 4,
+        "childcount": 0,
+        "infantcount": 0,
+        "totalpax": 4,
+        "ticketcopy": null,
+        "ticketed_at": "2024-06-03T21:37:28.946Z",
+        "purchaseprice": 0,
+        "sellprice": 846948,
+        "comission": null,
+        "totalsegment": null,
+        "timelimit": "2024-06-03T18:14:40.561Z",
+        "flightdate": "2024-06-04T00:00:00.000Z",
+        "flightdata": [
+            {
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "itemId": "3",
+                "sourceType": "ATPCO",
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "arrivalDate": "2024-06-04",
+                "arrivalTime": "12:15:00",
+                "bookingClass": "H",
+                "flightNumber": 713,
+                "cabinTypeCode": "Y",
+                "cabinTypeName": "ECONOMY",
+                "departureDate": "2024-06-04",
+                "departureTime": "06:20:00",
+                "numberOfSeats": 4,
+                "toAirportCode": "IST",
+                "confirmationId": "SEI34R",
+                "distanceInMiles": 3713,
+                "fromAirportCode": "DAC",
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "aircraftTypeCode": "333",
+                "aircraftTypeName": "AIRBUS INDUSTRIE 330-300",
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 535,
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ],
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 713
+            },
+            {
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "itemId": "4",
+                "sourceType": "ATPCO",
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "arrivalDate": "2024-06-04",
+                "arrivalTime": "15:05:00",
+                "bookingClass": "Y",
+                "flightNumber": 968,
+                "cabinTypeCode": "Y",
+                "cabinTypeName": "ECONOMY",
+                "departureDate": "2024-06-04",
+                "departureTime": "13:20:00",
+                "numberOfSeats": 4,
+                "toAirportCode": "ECN",
+                "confirmationId": "SEI34R",
+                "distanceInMiles": 494,
+                "fromAirportCode": "IST",
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "aircraftTypeCode": "7M8",
+                "aircraftTypeName": "BOEING 737MAX 8 PASSENGER",
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 105,
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ],
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 968
+            },
+            {
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "itemId": "5",
+                "sourceType": "ATPCO",
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "arrivalDate": "2024-06-30",
+                "arrivalTime": "14:25:00",
+                "bookingClass": "Y",
+                "flightNumber": 977,
+                "cabinTypeCode": "Y",
+                "cabinTypeName": "ECONOMY",
+                "departureDate": "2024-06-30",
+                "departureTime": "12:35:00",
+                "numberOfSeats": 4,
+                "toAirportCode": "IST",
+                "confirmationId": "SEI34R",
+                "distanceInMiles": 494,
+                "fromAirportCode": "ECN",
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "aircraftTypeCode": "32B",
+                "aircraftTypeName": "AIRBUS INDUSTRIE A321 SHARKLETS",
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 110,
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ],
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 977
+            },
+            {
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "itemId": "6",
+                "sourceType": "ATPCO",
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "arrivalDate": "2024-07-01",
+                "arrivalTime": "04:50:00",
+                "bookingClass": "O",
+                "flightNumber": 712,
+                "cabinTypeCode": "Y",
+                "cabinTypeName": "ECONOMY",
+                "departureDate": "2024-06-30",
+                "departureTime": "18:15:00",
+                "numberOfSeats": 4,
+                "toAirportCode": "DAC",
+                "confirmationId": "SEI34R",
+                "distanceInMiles": 3713,
+                "fromAirportCode": "IST",
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "aircraftTypeCode": "333",
+                "aircraftTypeName": "AIRBUS INDUSTRIE 330-300",
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 455,
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ],
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 712
+            }
+        ],
+        "itenary": {},
+        "companyname": "EVAN INTERNATIONAL1001",
+        "created_at": "2024-06-03T17:44:40.000Z",
+        "updated_at": "2024-06-03T17:44:40.000Z",
+        "uid": "143f778f-16a1-47d7-a472-4c4d9a58cda8"
+    },
+    "sabredata": {
+        "bookingId": "DBFMXY",
+        "startDate": "2024-06-04",
+        "endDate": "2024-07-01",
+        "isTicketed": true,
+        "creationDetails": {
+            "creationUserSine": "AAI",
+            "creationDate": "2024-06-03",
+            "creationTime": "12:34",
+            "userWorkPcc": "J4YL",
+            "userHomePcc": "J4YL",
+            "primeHostId": "1B"
+        },
+        "contactInfo": {
+            "emails": [
+                "EVANINTERNATIONAL.BD@GMAIL.COM",
+                "HRABIUL331@GMAIL.COM"
+            ],
+            "phones": [
+                " EVAN INTERNATIONAL 01813902919 REF ARIF"
+            ]
+        },
+        "travelers": [
+            {
+                "givenName": "KAWSER MR",
+                "surname": "HOSSAIN",
+                "type": "ADULT",
+                "passengerCode": "ADT",
+                "nameAssociationId": "1",
+                "identityDocuments": [
+                    {
+                        "documentNumber": "A13172643",
+                        "documentType": "PASSPORT",
+                        "expiryDate": "2033-11-26",
+                        "issuingCountryCode": "BGD",
+                        "residenceCountryCode": "BGD",
+                        "givenName": "KAWSER",
+                        "surname": "HOSSAIN",
+                        "birthDate": "1983-01-01",
+                        "gender": "MALE",
+                        "isPrimaryDocumentHolder": false,
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e"
+                    }
+                ]
+            },
+            {
+                "givenName": "MONIR MR",
+                "surname": "HOSSAIN",
+                "type": "ADULT",
+                "passengerCode": "ADT",
+                "nameAssociationId": "2",
+                "identityDocuments": [
+                    {
+                        "documentNumber": "A04916463",
+                        "documentType": "PASSPORT",
+                        "expiryDate": "2032-10-01",
+                        "issuingCountryCode": "BGD",
+                        "residenceCountryCode": "BGD",
+                        "givenName": "MONIR",
+                        "surname": "HOSSAIN",
+                        "birthDate": "1998-01-02",
+                        "gender": "MALE",
+                        "isPrimaryDocumentHolder": false,
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c"
+                    }
+                ]
+            },
+            {
+                "givenName": "RIFAT MR",
+                "surname": "SARKER",
+                "type": "ADULT",
+                "passengerCode": "ADT",
+                "nameAssociationId": "3",
+                "identityDocuments": [
+                    {
+                        "documentNumber": "A07955177",
+                        "documentType": "PASSPORT",
+                        "expiryDate": "2033-07-11",
+                        "issuingCountryCode": "BGD",
+                        "residenceCountryCode": "BGD",
+                        "givenName": "RIFAT",
+                        "surname": "SARKER",
+                        "birthDate": "1990-03-17",
+                        "gender": "MALE",
+                        "isPrimaryDocumentHolder": false,
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce"
+                    }
+                ]
+            },
+            {
+                "givenName": "ANISUR MR",
+                "surname": "RAHMAN",
+                "type": "ADULT",
+                "passengerCode": "ADT",
+                "nameAssociationId": "4",
+                "identityDocuments": [
+                    {
+                        "documentNumber": "A05940214",
+                        "documentType": "PASSPORT",
+                        "expiryDate": "2032-12-05",
+                        "issuingCountryCode": "BGD",
+                        "residenceCountryCode": "BGD",
+                        "givenName": "ANISUR",
+                        "surname": "RAHMAN",
+                        "birthDate": "1992-05-01",
+                        "gender": "MALE",
+                        "isPrimaryDocumentHolder": false,
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795"
+                    }
+                ]
+            }
+        ],
+        "flights": [
+            {
+                "itemId": "3",
+                "confirmationId": "SEI34R",
+                "sourceType": "ATPCO",
+                "flightNumber": 713,
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 713,
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "fromAirportCode": "DAC",
+                "toAirportCode": "IST",
+                "departureDate": "2024-06-04",
+                "departureTime": "06:20:00",
+                "arrivalDate": "2024-06-04",
+                "arrivalTime": "12:15:00",
+                "numberOfSeats": 4,
+                "cabinTypeName": "ECONOMY",
+                "cabinTypeCode": "Y",
+                "aircraftTypeCode": "333",
+                "aircraftTypeName": "AIRBUS INDUSTRIE 330-300",
+                "bookingClass": "H",
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 535,
+                "distanceInMiles": 3713,
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ]
+            },
+            {
+                "itemId": "4",
+                "confirmationId": "SEI34R",
+                "sourceType": "ATPCO",
+                "flightNumber": 968,
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 968,
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "fromAirportCode": "IST",
+                "toAirportCode": "ECN",
+                "departureDate": "2024-06-04",
+                "departureTime": "13:20:00",
+                "arrivalDate": "2024-06-04",
+                "arrivalTime": "15:05:00",
+                "numberOfSeats": 4,
+                "cabinTypeName": "ECONOMY",
+                "cabinTypeCode": "Y",
+                "aircraftTypeCode": "7M8",
+                "aircraftTypeName": "BOEING 737MAX 8 PASSENGER",
+                "bookingClass": "Y",
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 105,
+                "distanceInMiles": 494,
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ]
+            },
+            {
+                "itemId": "5",
+                "confirmationId": "SEI34R",
+                "sourceType": "ATPCO",
+                "flightNumber": 977,
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 977,
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "fromAirportCode": "ECN",
+                "toAirportCode": "IST",
+                "departureDate": "2024-06-30",
+                "departureTime": "12:35:00",
+                "arrivalDate": "2024-06-30",
+                "arrivalTime": "14:25:00",
+                "numberOfSeats": 4,
+                "cabinTypeName": "ECONOMY",
+                "cabinTypeCode": "Y",
+                "aircraftTypeCode": "32B",
+                "aircraftTypeName": "AIRBUS INDUSTRIE A321 SHARKLETS",
+                "bookingClass": "Y",
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 110,
+                "distanceInMiles": 494,
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ]
+            },
+            {
+                "itemId": "6",
+                "confirmationId": "SEI34R",
+                "sourceType": "ATPCO",
+                "flightNumber": 712,
+                "airlineCode": "TK",
+                "airlineName": "TURKISH AIRLINES",
+                "operatingFlightNumber": 712,
+                "operatingAirlineCode": "TK",
+                "operatingAirlineName": "TURKISH AIRLINES",
+                "fromAirportCode": "IST",
+                "toAirportCode": "DAC",
+                "departureDate": "2024-06-30",
+                "departureTime": "18:15:00",
+                "arrivalDate": "2024-07-01",
+                "arrivalTime": "04:50:00",
+                "numberOfSeats": 4,
+                "cabinTypeName": "ECONOMY",
+                "cabinTypeCode": "Y",
+                "aircraftTypeCode": "333",
+                "aircraftTypeName": "AIRBUS INDUSTRIE 330-300",
+                "bookingClass": "O",
+                "meals": [
+                    {
+                        "code": "M",
+                        "description": "Meal"
+                    }
+                ],
+                "flightStatusCode": "HK",
+                "flightStatusName": "Confirmed",
+                "durationInMinutes": 455,
+                "distanceInMiles": 3713,
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "identityDocuments": [
+                    {
+                        "itemId": "4a54a638cad311cfc9aec5a71ed6fb20bc2fccb7ad640dfe5d4f73b81af590008d5dca9a7acbc1369fd0b6718089988606ce11b1227cd59fb4971f4256461a4e",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "1d635921f7b39fa12a96513bc6d46438e93527382f386afdf7db1403eeb88491d5bef65f9a5069cb73494b3a18bdd3a417475d52dcf4cbcd15579769a4d26f3c",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "fa495d67e7c134642e26383459a2d165ae221790da3b2472fafb0f841789dd388abfdc32fdf45b3e8a9ce46181477b6fd1dc3653d46ca6074aafb87704719fce",
+                        "status": "Confirmed"
+                    },
+                    {
+                        "itemId": "80be9f7f576d24a9ed42ee4445e672f89396eeae83ebf0ac4b56312d7f17a60a08993b11ae283b6e70c2af465ceb707a72f53f45b3ea4d206c94c3e550211795",
+                        "status": "Confirmed"
+                    }
+                ]
+            }
+        ],
+        "journeys": [
+            {
+                "firstAirportCode": "DAC",
+                "departureDate": "2024-06-04",
+                "departureTime": "06:20",
+                "lastAirportCode": "ECN",
+                "numberOfFlights": 2
+            },
+            {
+                "firstAirportCode": "ECN",
+                "departureDate": "2024-06-30",
+                "departureTime": "12:35",
+                "lastAirportCode": "DAC",
+                "numberOfFlights": 2
+            }
+        ],
+        "fareOffers": [
+            {
+                "travelerIndices": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "flights": [
+                    {
+                        "itemId": "3"
+                    },
+                    {
+                        "itemId": "4"
+                    },
+                    {
+                        "itemId": "5"
+                    },
+                    {
+                        "itemId": "6"
+                    }
+                ],
+                "cabinBaggageAllowance": {
+                    "maximumPieces": 1,
+                    "baggagePieces": [
+                        {
+                            "maximumSizeInInches": 45,
+                            "maximumSizeInCentimeters": 115,
+                            "maximumWeightInPounds": 18,
+                            "maximumWeightInKilograms": 8,
+                            "numberOfPieces": 1
+                        }
+                    ]
+                },
+                "checkedBaggageAllowance": {
+                    "totalWeightInKilograms": 30
+                },
+                "checkedBaggageCharges": [
+                    {
+                        "maximumWeightInPounds": 70,
+                        "maximumWeightInKilograms": 32,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "FENCING EQPMT UPTO 32KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SCOOTER UP TO 50LB 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "FISHING EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "GOLF EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SKI EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "WEIGHT 1KG 01PC",
+                        "fee": {
+                            "amount": "17.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "BICYCLE",
+                        "fee": {
+                            "amount": "100.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "WEAPONS MUNITION UP TO 20KG",
+                        "fee": {
+                            "amount": "100.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SCUBA EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SNOWBOARD",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "HOCKEY EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "JAVELIN",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "STROLLER OR PUSHCHAIR",
+                        "fee": {
+                            "amount": "60.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SPORTING EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "ARCHERY EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "EQUIP BOOGIE BOARD",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "CANOE KAYAK OARS",
+                        "fee": {
+                            "amount": "100.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "HANG GLIDING EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "KITE SURFBOARD UP TO 160CM",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SURFBOARD",
+                        "fee": {
+                            "amount": "100.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "WINDSURF EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "SKATEBOARD",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "CAMPING EQUIPMENT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "PARACHUTE EQPMT UP TO 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "WATER SKI EQUIPMENT UP TO 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "TANDEM BICYCLE UP TO 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "ALPINIST EQPMT UP TO 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "HORSE RIDING EQPMT UP TO 23KG",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "PARACHUTE EQPMT UP TO 23KG",
+                        "fee": {
+                            "amount": "60.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 50,
+                        "maximumWeightInKilograms": 23,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "TENNIS SQUASH BADMINTON EQPMT",
+                        "fee": {
+                            "amount": "80.00",
+                            "currencyCode": "EUR"
+                        }
+                    },
+                    {
+                        "maximumWeightInPounds": 100,
+                        "maximumWeightInKilograms": 45,
+                        "numberOfPieces": 1,
+                        "specialItemDescription": "BOAT",
+                        "fee": {
+                            "amount": "100.00",
+                            "currencyCode": "EUR"
+                        }
+                    }
+                ]
+            }
+        ],
+        "fares": [
+            {
+                "creationDetails": {
+                    "creationUserSine": "AAI",
+                    "creationDate": "2024-06-03",
+                    "creationTime": "12:43",
+                    "userWorkPcc": "J4YL",
+                    "userHomePcc": "J4YL"
+                },
+                "airlineCode": "TK",
+                "fareCalculationLine": "DAC TK X/IST TK ECN718.00TK X/IST TK DAC Q ECNDAC15.00 596.00NUC1329.00END ROE1.00",
+                "isNegotiatedFare": false,
+                "fareConstruction": [
+                    {
+                        "flights": [
+                            {
+                                "itemId": "3"
+                            },
+                            {
+                                "itemId": "4"
+                            }
+                        ],
+                        "flightIndices": [
+                            1,
+                            2
+                        ],
+                        "fareBasisCode": "HY1XEX",
+                        "baseRate": {
+                            "amount": "718.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    },
+                    {
+                        "flights": [
+                            {
+                                "itemId": "5"
+                            },
+                            {
+                                "itemId": "6"
+                            }
+                        ],
+                        "flightIndices": [
+                            3,
+                            4
+                        ],
+                        "fareBasisCode": "OY1PX6M",
+                        "baseRate": {
+                            "amount": "596.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    }
+                ],
+                "taxBreakdown": [
+                    {
+                        "taxCode": "BD",
+                        "taxAmount": {
+                            "amount": "500",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "UT",
+                        "taxAmount": {
+                            "amount": "6000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "OW",
+                        "taxAmount": {
+                            "amount": "3000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "E5",
+                        "taxAmount": {
+                            "amount": "426",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "TR",
+                        "taxAmount": {
+                            "amount": "1266",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "CY",
+                        "taxAmount": {
+                            "amount": "2502",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "JW",
+                        "taxAmount": {
+                            "amount": "50",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "YR",
+                        "taxAmount": {
+                            "amount": "39780",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P8",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "M6",
+                        "taxAmount": {
+                            "amount": "380",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P7",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    }
+                ],
+                "totals": {
+                    "subtotal": "155493",
+                    "taxes": "56244",
+                    "total": "211737",
+                    "currencyCode": "BDT"
+                },
+                "pricingTypeCode": "S",
+                "pricingTypeName": "System",
+                "pricingStatusCode": "A",
+                "pricingStatusName": "Active",
+                "hasValidPricing": false,
+                "requestedTravelerType": "ADT",
+                "pricedTravelerType": "ADT",
+                "recordTypeCode": "PQ",
+                "recordTypeName": "Price Quote",
+                "recordId": "1"
+            },
+            {
+                "creationDetails": {
+                    "creationUserSine": "AGK",
+                    "creationDate": "2024-06-03",
+                    "creationTime": "13:04",
+                    "userWorkPcc": "YG3J",
+                    "userHomePcc": "YG3J"
+                },
+                "airlineCode": "TK",
+                "fareCalculationLine": "DAC TK X/IST TK ECN718.00TK X/IST TK DAC Q ECNDAC15.00 596.00NUC1329.00END ROE1.00",
+                "isNegotiatedFare": false,
+                "fareConstruction": [
+                    {
+                        "flights": [
+                            {
+                                "itemId": "3"
+                            },
+                            {
+                                "itemId": "4"
+                            }
+                        ],
+                        "flightIndices": [
+                            1,
+                            2
+                        ],
+                        "fareBasisCode": "HY1XEX",
+                        "baseRate": {
+                            "amount": "718.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    },
+                    {
+                        "flights": [
+                            {
+                                "itemId": "5"
+                            },
+                            {
+                                "itemId": "6"
+                            }
+                        ],
+                        "flightIndices": [
+                            3,
+                            4
+                        ],
+                        "fareBasisCode": "OY1PX6M",
+                        "baseRate": {
+                            "amount": "596.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    }
+                ],
+                "taxBreakdown": [
+                    {
+                        "taxCode": "BD",
+                        "taxAmount": {
+                            "amount": "500",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "UT",
+                        "taxAmount": {
+                            "amount": "6000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "OW",
+                        "taxAmount": {
+                            "amount": "3000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "E5",
+                        "taxAmount": {
+                            "amount": "426",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "TR",
+                        "taxAmount": {
+                            "amount": "1270",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "CY",
+                        "taxAmount": {
+                            "amount": "2509",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "JW",
+                        "taxAmount": {
+                            "amount": "50",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "YR",
+                        "taxAmount": {
+                            "amount": "39780",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P8",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "M6",
+                        "taxAmount": {
+                            "amount": "382",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P7",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    }
+                ],
+                "totals": {
+                    "subtotal": "155493",
+                    "taxes": "56257",
+                    "total": "211750",
+                    "currencyCode": "BDT"
+                },
+                "pricingTypeCode": "S",
+                "pricingTypeName": "System",
+                "pricingStatusCode": "A",
+                "pricingStatusName": "Active",
+                "requestedTravelerType": "ADT",
+                "pricedTravelerType": "ADT",
+                "recordTypeCode": "PQ",
+                "recordTypeName": "Price Quote",
+                "recordId": "2"
+            },
+            {
+                "creationDetails": {
+                    "creationUserSine": "AGK",
+                    "creationDate": "2024-06-03",
+                    "creationTime": "13:08",
+                    "userWorkPcc": "YG3J",
+                    "userHomePcc": "YG3J"
+                },
+                "airlineCode": "TK",
+                "fareCalculationLine": "DAC TK X/IST TK ECN718.00TK X/IST TK DAC Q ECNDAC15.00 596.00NUC1329.00END ROE1.00",
+                "isNegotiatedFare": false,
+                "fareConstruction": [
+                    {
+                        "flights": [
+                            {
+                                "itemId": "3"
+                            },
+                            {
+                                "itemId": "4"
+                            }
+                        ],
+                        "flightIndices": [
+                            1,
+                            2
+                        ],
+                        "fareBasisCode": "HY1XEX",
+                        "baseRate": {
+                            "amount": "718.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    },
+                    {
+                        "flights": [
+                            {
+                                "itemId": "5"
+                            },
+                            {
+                                "itemId": "6"
+                            }
+                        ],
+                        "flightIndices": [
+                            3,
+                            4
+                        ],
+                        "fareBasisCode": "OY1PX6M",
+                        "baseRate": {
+                            "amount": "596.00",
+                            "currencyCode": "NUC"
+                        },
+                        "isCurrentItinerary": true,
+                        "checkedBaggageAllowance": {
+                            "totalWeightInKilograms": 30
+                        }
+                    }
+                ],
+                "taxBreakdown": [
+                    {
+                        "taxCode": "BD",
+                        "taxAmount": {
+                            "amount": "500",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "UT",
+                        "taxAmount": {
+                            "amount": "6000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "OW",
+                        "taxAmount": {
+                            "amount": "3000",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "E5",
+                        "taxAmount": {
+                            "amount": "426",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "TR",
+                        "taxAmount": {
+                            "amount": "1270",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "CY",
+                        "taxAmount": {
+                            "amount": "2509",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "JW",
+                        "taxAmount": {
+                            "amount": "50",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "YR",
+                        "taxAmount": {
+                            "amount": "39780",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P8",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "M6",
+                        "taxAmount": {
+                            "amount": "382",
+                            "currencyCode": "BDT"
+                        }
+                    },
+                    {
+                        "taxCode": "P7",
+                        "taxAmount": {
+                            "amount": "1170",
+                            "currencyCode": "BDT"
+                        }
+                    }
+                ],
+                "totals": {
+                    "subtotal": "155493",
+                    "taxes": "56257",
+                    "total": "211750",
+                    "currencyCode": "BDT"
+                },
+                "pricingTypeCode": "S",
+                "pricingTypeName": "System",
+                "pricingStatusCode": "A",
+                "pricingStatusName": "Active",
+                "requestedTravelerType": "ADT",
+                "pricedTravelerType": "ADT",
+                "recordTypeCode": "PQ",
+                "recordTypeName": "Price Quote",
+                "recordId": "3"
+            }
+        ],
+        "remarks": [
+            {
+                "type": "GENERAL",
+                "text": "XXTAW/"
+            }
+        ],
+        "allSegments": [
+            {
+                "id": "3",
+                "type": "FLIGHT",
+                "text": "713",
+                "vendorCode": "TK",
+                "startDate": "2024-06-04",
+                "startTime": "06:20:00",
+                "startLocationCode": "DAC",
+                "endDate": "2024-06-04",
+                "endTime": "12:15:00",
+                "endLocationCode": "IST"
+            },
+            {
+                "id": "4",
+                "type": "FLIGHT",
+                "text": "968",
+                "vendorCode": "TK",
+                "startDate": "2024-06-04",
+                "startTime": "13:20:00",
+                "startLocationCode": "IST",
+                "endDate": "2024-06-04",
+                "endTime": "15:05:00",
+                "endLocationCode": "ECN"
+            },
+            {
+                "id": "5",
+                "type": "FLIGHT",
+                "text": "977",
+                "vendorCode": "TK",
+                "startDate": "2024-06-30",
+                "startTime": "12:35:00",
+                "startLocationCode": "ECN",
+                "endDate": "2024-06-30",
+                "endTime": "14:25:00",
+                "endLocationCode": "IST"
+            },
+            {
+                "id": "6",
+                "type": "FLIGHT",
+                "text": "712",
+                "vendorCode": "TK",
+                "startDate": "2024-06-30",
+                "startTime": "18:15:00",
+                "startLocationCode": "IST",
+                "endDate": "2024-07-01",
+                "endTime": "04:50:00",
+                "endLocationCode": "DAC"
+            }
+        ],
+        "flightTickets": [
+            {
+                "number": "2353045516745",
+                "date": "2024-06-04",
+                "travelerIndex": 1,
+                "ticketStatusName": "Issued",
+                "ticketStatusCode": "TE",
+                "ticketingPcc": "YG3J"
+            },
+            {
+                "number": "2353045516746",
+                "date": "2024-06-04",
+                "travelerIndex": 2,
+                "ticketStatusName": "Issued",
+                "ticketStatusCode": "TE",
+                "ticketingPcc": "YG3J"
+            },
+            {
+                "number": "2353045516747",
+                "date": "2024-06-04",
+                "travelerIndex": 3,
+                "ticketStatusName": "Issued",
+                "ticketStatusCode": "TE",
+                "ticketingPcc": "YG3J"
+            },
+            {
+                "number": "2353045516748",
+                "date": "2024-06-04",
+                "travelerIndex": 4,
+                "ticketStatusName": "Issued",
+                "ticketStatusCode": "TE",
+                "ticketingPcc": "YG3J"
+            }
+        ],
+        "specialServices": [
+            {
+                "code": "ADTK",
+                "message": "TO  TK BY 04JUN 0134 IRC-2/ADV OTO TKT"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "code": "CTCE",
+                "name": "Passenger contact information e-mail address",
+                "message": "/KHASRUJEWEL//GMAIL.COM",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "code": "CTCE",
+                "name": "Passenger contact information e-mail address",
+                "message": "/INFO//ETRIPZONE.COM",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "code": "CTCM",
+                "name": "Passenger contact information mobile phone number",
+                "message": "/01409965999",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "code": "CTCM",
+                "name": "Passenger contact information mobile phone number",
+                "message": "/1819841771",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    3
+                ],
+                "code": "DOCS",
+                "name": "API-Passenger Travel Document",
+                "message": "/P/BGD/A07955177/BGD/17MAR90/M/11JUL33/SARKER/RIFAT",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    2
+                ],
+                "code": "DOCS",
+                "name": "API-Passenger Travel Document",
+                "message": "/P/BGD/A04916463/BGD/02JAN98/M/01OCT32/HOSSAIN/MONIR",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    4
+                ],
+                "code": "DOCS",
+                "name": "API-Passenger Travel Document",
+                "message": "/P/BGD/A05940214/BGD/01MAY92/M/05DEC32/RAHMAN/ANISUR",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "code": "DOCS",
+                "name": "API-Passenger Travel Document",
+                "message": "/P/BGD/A13172643/BGD/01JAN83/M/26NOV33/HOSSAIN/KAWSER",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "code": "OTHS",
+                "message": "  DOCS CTCM CTCE ARE MANDATORY FOR TICKETING"
+            },
+            {
+                "code": "OTHS",
+                "message": "  PLEASE ADVISE FQTV NUMBER IF AVAILABLE"
+            },
+            {
+                "code": "OTHS",
+                "message": "  PLS ENTER DOCS CTCM AND CTCE FIELDS WTH SSR FORMAT"
+            },
+            {
+                "code": "OTHS",
+                "message": "  FOR DOCS FIELD DOB GENDER NAME FIELDS ARE REQUIRED"
+            },
+            {
+                "code": "OTHS",
+                "message": "  PLS ADV PSGR MOBILE AND/OR EMAIL AS SSR CTCM/CTCE"
+            },
+            {
+                "travelerIndices": [
+                    4
+                ],
+                "flights": [
+                    {
+                        "itemId": "6"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516748C4",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    4
+                ],
+                "flights": [
+                    {
+                        "itemId": "4"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516748C2",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "flights": [
+                    {
+                        "itemId": "6"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516745C4",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "flights": [
+                    {
+                        "itemId": "4"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516745C2",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    3
+                ],
+                "flights": [
+                    {
+                        "itemId": "6"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516747C4",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    3
+                ],
+                "flights": [
+                    {
+                        "itemId": "4"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516747C2",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    2
+                ],
+                "flights": [
+                    {
+                        "itemId": "6"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516746C4",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    2
+                ],
+                "flights": [
+                    {
+                        "itemId": "4"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516746C2",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    4
+                ],
+                "flights": [
+                    {
+                        "itemId": "5"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516748C3",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    4
+                ],
+                "flights": [
+                    {
+                        "itemId": "3"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516748C1",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "flights": [
+                    {
+                        "itemId": "5"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516745C3",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    1
+                ],
+                "flights": [
+                    {
+                        "itemId": "3"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516745C1",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    3
+                ],
+                "flights": [
+                    {
+                        "itemId": "5"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516747C3",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    3
+                ],
+                "flights": [
+                    {
+                        "itemId": "3"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516747C1",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    2
+                ],
+                "flights": [
+                    {
+                        "itemId": "5"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516746C3",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            },
+            {
+                "travelerIndices": [
+                    2
+                ],
+                "flights": [
+                    {
+                        "itemId": "3"
+                    }
+                ],
+                "code": "TKNE",
+                "message": "/2353045516746C1",
+                "statusCode": "HK",
+                "statusName": "Confirmed"
+            }
+        ],
+        "accountingItems": [
+            {
+                "fareApplicationType": "Single Traveler",
+                "formOfPaymentType": "Cash",
+                "airlineCode": "TK",
+                "ticketNumber": "2353045516745",
+                "commission": {
+                    "commissionAmount": "10885"
+                },
+                "fareAmount": "155493",
+                "taxAmount": "56244",
+                "travelerIndices": [
+                    1
+                ],
+                "tariffBasisType": "Foreign"
+            },
+            {
+                "fareApplicationType": "Single Traveler",
+                "formOfPaymentType": "Cash",
+                "airlineCode": "TK",
+                "ticketNumber": "2353045516746",
+                "commission": {
+                    "commissionAmount": "10885"
+                },
+                "fareAmount": "155493",
+                "taxAmount": "56244",
+                "travelerIndices": [
+                    2
+                ],
+                "tariffBasisType": "Foreign"
+            },
+            {
+                "fareApplicationType": "Single Traveler",
+                "formOfPaymentType": "Cash",
+                "airlineCode": "TK",
+                "ticketNumber": "2353045516747",
+                "commission": {
+                    "commissionAmount": "10885"
+                },
+                "fareAmount": "155493",
+                "taxAmount": "56244",
+                "travelerIndices": [
+                    3
+                ],
+                "tariffBasisType": "Foreign"
+            },
+            {
+                "fareApplicationType": "Single Traveler",
+                "formOfPaymentType": "Cash",
+                "airlineCode": "TK",
+                "ticketNumber": "2353045516748",
+                "commission": {
+                    "commissionAmount": "10885"
+                },
+                "fareAmount": "155493",
+                "taxAmount": "56244",
+                "travelerIndices": [
+                    4
+                ],
+                "tariffBasisType": "Foreign"
+            }
+        ],
+        "timestamp": "2024-06-04T05:17:00",
+        "bookingSignature": "d93212d04e6914b5bd1a9a30a64df8c747b94c2b5f1285f0fb6dbd27befbc2918987c6d2d792a0344ea2afa181ad55eee1f7f648c102cd736f0c2cb6fa3eee3b",
+        "request": {
+            "confirmationId": "DBFMXY"
+        },
+        "errors": [
+            {
+                "category": "WARNING",
+                "type": "RESOURCE_UNAVAILABLE",
+                "description": "Details for ticket with number: 2353045516745 cannot be populated",
+                "fieldPath": "GetBookingResponse.flightTickets",
+                "fieldName": "number",
+                "fieldValue": "2353045516745"
+            },
+            {
+                "category": "WARNING",
+                "type": "RESOURCE_UNAVAILABLE",
+                "description": "Details for ticket with number: 2353045516746 cannot be populated",
+                "fieldPath": "GetBookingResponse.flightTickets",
+                "fieldName": "number",
+                "fieldValue": "2353045516746"
+            },
+            {
+                "category": "WARNING",
+                "type": "RESOURCE_UNAVAILABLE",
+                "description": "Details for ticket with number: 2353045516747 cannot be populated",
+                "fieldPath": "GetBookingResponse.flightTickets",
+                "fieldName": "number",
+                "fieldValue": "2353045516747"
+            },
+            {
+                "category": "WARNING",
+                "type": "RESOURCE_UNAVAILABLE",
+                "description": "Details for ticket with number: 2353045516748 cannot be populated",
+                "fieldPath": "GetBookingResponse.flightTickets",
+                "fieldName": "number",
+                "fieldValue": "2353045516748"
+            },
+            {
+                "category": "WARNING",
+                "type": "RESOURCE_UNAVAILABLE",
+                "description": "FareRules can not be populated for this passengerCode for part of the booking. There's no valid Ticket present in the booking for flights[3, 4, 5, 6].",
+                "fieldPath": "GetBookingResponse.travelers",
+                "fieldName": "passengerCode",
+                "fieldValue": "ADT"
+            }
+        ]
+    },
+    "passengerdata": [
+        {
+            "id": 72,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "prefix": "MR",
+            "givenname": "KAWSER",
+            "surname": "HOSSAIN",
+            "dob": "1983-01-01",
+            "type": "ADT",
+            "nationality": "BGD",
+            "document": "A13172643",
+            "expiredate": "2033-11-26",
+            "phone": null,
+            "email": null,
+            "ticketnumber": "2353045516745 ",
+            "ticketstatus": "unused",
+            "gender": "MALE",
+            "passport": null,
+            "visa": null,
+            "created_at": "2024-06-03T17:44:40.000Z",
+            "updated_at": "2024-06-03T17:44:40.000Z",
+            "uid": "2a1b7fb0-dd0e-4762-b7a2-eed4200658ad"
+        },
+        {
+            "id": 73,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "prefix": "MR",
+            "givenname": "MONIR",
+            "surname": "HOSSAIN",
+            "dob": "1998-01-02",
+            "type": "ADT",
+            "nationality": "BGD",
+            "document": "A04916463",
+            "expiredate": "2032-10-01",
+            "phone": null,
+            "email": null,
+            "ticketnumber": "2353045516746",
+            "ticketstatus": "unused",
+            "gender": "MALE",
+            "passport": null,
+            "visa": null,
+            "created_at": "2024-06-03T17:44:40.000Z",
+            "updated_at": "2024-06-03T17:44:40.000Z",
+            "uid": "0e617377-d969-4e0a-b1df-6ea812686879"
+        },
+        {
+            "id": 74,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "prefix": "MR",
+            "givenname": "RIFAT",
+            "surname": "SARKER",
+            "dob": "1990-03-17",
+            "type": "ADT",
+            "nationality": "BGD",
+            "document": "A07955177",
+            "expiredate": "2033-07-11",
+            "phone": null,
+            "email": null,
+            "ticketnumber": "2353045516747",
+            "ticketstatus": "unused",
+            "gender": "MALE",
+            "passport": null,
+            "visa": null,
+            "created_at": "2024-06-03T17:44:40.000Z",
+            "updated_at": "2024-06-03T17:44:40.000Z",
+            "uid": "28f402ca-355f-4763-a36b-387a91821783"
+        },
+        {
+            "id": 75,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "prefix": "MR",
+            "givenname": "ANISUR",
+            "surname": "RAHMAN",
+            "dob": "1992-05-01",
+            "type": "ADT",
+            "nationality": "BGD",
+            "document": "A05940214",
+            "expiredate": "2032-12-05",
+            "phone": null,
+            "email": null,
+            "ticketnumber": "2353045516748",
+            "ticketstatus": "unused",
+            "gender": "MALE",
+            "passport": null,
+            "visa": null,
+            "created_at": "2024-06-03T17:44:40.000Z",
+            "updated_at": "2024-06-03T17:44:40.000Z",
+            "uid": "6f25711a-38ab-49bc-8005-f04a7fa47030"
+        }
+    ],
+    "refunddata": null,
+    "reissuedata": [],
+    "ticketdetails": [
+        {
+            "id": 19,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "vendor": "SAYED AWLIA ",
+            "system": "Sabre",
+            "airlines": "TURKISH AIRLINES",
+            "bookingpnr": "DBFMXY",
+            "airlinespnr": "SEI34R",
+            "givenname": "KAWSER",
+            "surname": "HOSSAIN",
+            "ticketnumber": "2353045516745 ",
+            "issuetype": "manual",
+            "created_at": "2024-06-03T21:37:28.000Z",
+            "updated_at": "2024-06-03T21:37:28.000Z",
+            "uid": "4caa800f-dcfe-4e4b-b645-40de7b659570"
+        },
+        {
+            "id": 20,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "vendor": "SAYED AWLIA ",
+            "system": "Sabre",
+            "airlines": "TURKISH AIRLINES",
+            "bookingpnr": "DBFMXY",
+            "airlinespnr": "SEI34R",
+            "givenname": "MONIR",
+            "surname": "HOSSAIN",
+            "ticketnumber": "2353045516746",
+            "issuetype": "manual",
+            "created_at": "2024-06-03T21:37:28.000Z",
+            "updated_at": "2024-06-03T21:37:28.000Z",
+            "uid": "33d3beab-c900-4c2a-a954-11832ef73579"
+        },
+        {
+            "id": 21,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "vendor": "SAYED AWLIA ",
+            "system": "Sabre",
+            "airlines": "TURKISH AIRLINES",
+            "bookingpnr": "DBFMXY",
+            "airlinespnr": "SEI34R",
+            "givenname": "RIFAT",
+            "surname": "SARKER",
+            "ticketnumber": "2353045516747",
+            "issuetype": "manual",
+            "created_at": "2024-06-03T21:37:28.000Z",
+            "updated_at": "2024-06-03T21:37:28.000Z",
+            "uid": "357753c1-9f4d-4764-bd70-06923d90e3fb"
+        },
+        {
+            "id": 22,
+            "agentId": "EZA1024",
+            "bookingId": "EZB1056",
+            "vendor": "SAYED AWLIA ",
+            "system": "Sabre",
+            "airlines": "TURKISH AIRLINES",
+            "bookingpnr": "DBFMXY",
+            "airlinespnr": "SEI34R",
+            "givenname": "ANISUR",
+            "surname": "RAHMAN",
+            "ticketnumber": "2353045516748",
+            "issuetype": "manual",
+            "created_at": "2024-06-03T21:37:28.000Z",
+            "updated_at": "2024-06-03T21:37:28.000Z",
+            "uid": "9af65704-a2b6-4c4c-aab6-bfc966f7a933"
+        }
+    ],
+    "partialpaymentdata": null
+}
