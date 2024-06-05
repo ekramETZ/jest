@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      body {
+        width: 21cm;
+        height: 29.7cm;
+        font-family: "poppins", "sans-serif";
+      }
+      .ticket-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #ticket-id {
+        font-size: 15px;
+        color: #003566;
+      }
+      .gray-color {
+        color: #8e95ab;
+      }
+      .date-type {
+        width: 100%;
+        /* margin-top: 5px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      #table-title {
+        color: #003566;
+        font-size: 16px;
+        font-weight: 500;
+
+        margin-bottom: 5px;
+      }
+      #airline-code {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+      }
+      #logo {
+        width: 25px;
+        height: 25px;
+      }
+      #details-table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid #8e95ab;
+      }
+      #details-table td {
+        background-color: white;
+        font-size: 14px;
+      }
+
+      #details-table td,
+      #details-table th {
+        border: none;
+        padding: 8px;
+        font-size: 14px;
+      }
+
+      #details-table tr:nth-child(even) {
+        background-color: #eef2f5;
+      }
+      #details-table tr {
+        border: 2px solid #eef2f5;
+      }
+      #details-table tr:hover {
+        background-color: #ddd;
+      }
+
+      #details-table th {
+        /* padding-top: 12px;
+        padding-bottom: 12px; */
+        text-align: left;
+        background-color: #8e95ab;
+        color: #eef2f5;
+        font-size: 16px;
+      }
+      #passenger-table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid #8e95ab;
+      }
+      #passenger-table td {
+        background-color: white;
+        font-size: 14px;
+      }
+
+      #passenger-table td,
+      #passenger-table th {
+        border: none;
+        padding: 8px;
+        font-size: 14px;
+      }
+
+      #passenger-table tr:nth-child(even) {
+        background-color: #eef2f5;
+      }
+
+      #passenger-table tr:hover {
+        background-color: #ddd;
+      }
+
+      #passenger-table th {
+        /* padding-top: 12px;
+        padding-bottom: 12px; */
+        text-align: left;
+        background-color: #8e95ab;
+        color: #eef2f5;
+        font-size: 16px;
+      }
+      #price-breakdown-table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid #8e95ab;
+      }
+      #price-breakdown-table td {
+        background-color: white;
+        font-size: 14px;
+      }
+
+      #price-breakdown-table td,
+      #price-breakdown-tableth {
+        /* padding: 8px; */
+        font-size: 14px;
+      }
+      #price-breakdown-table tr {
+        border: 2px solid #8e95ab;
+      }
+      #price-breakdown-table tr:nth-child(even) {
+        background-color: #eef2f5;
+      }
+
+      #price-breakdown-table tr:hover {
+        background-color: #ddd;
+      }
+
+      #price-breakdown-table th {
+        /* padding-top: 12px;
+        padding-bottom: 12px; */
+        text-align: left;
+        background-color: #8e95ab;
+        color: #eef2f5;
+        font-size: 16px;
+      }
+
+      /* sub total */
+      .sub-total {
+        width: 70%;
+        margin-top: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 2px solid #8e95ab;
+      }
+      #amount {
+        display: flex;
+        justify-content: space-between;
+      }
+      #sub-total-note {
+        color: #003566;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 23px;
+        margin-bottom: 16px;
+      }
+      #note-description {
+        color: #8e95ab;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ticket-info">
+      <div>
+        <h1>{{companyname}}</h1>
+        <p class="gray-color">{{agent.address}}</p>
+        <p>
+          <b>Email:</b> <span class="gray-color">{{agent.email}}</span>
+        </p>
+        <p><b>Phone:</b><span class="gray-color">{{agent.phone}}</span></p>
+      </div>
+      <p id="ticket-id"><b>e-Ticket #{{ticketnumber}}</b></p>
+    </div>
+    <div class="date-type">
+      <p><strong>Date: {{formattedDate}}</strong></p>
+      <p><strong>PNR: {{pnr}}</strong></p>
+      <p><strong>FLIGHT TYPE: {{itenary.TripType}}</strong></p>
+    </div>
+    <!-- Hotel Details Table -->
+    <div>
+      <h2 id="table-title">FLIGHT ITNERARIES</h2>
+      <table id="details-table">
+        <tr>
+          <th>Airlines</th>
+          <th>Departure</th>
+          <th>Arrival</th>
+          <th>Stops</th>
+          <th>Class</th>
+        </tr>
+        <tr>
+          <td id="airline-code">
+            <img id="logo" src="https://flyjatt-b2b.sgp1.cdn.digitaloceanspaces.com/airlines/logo/{{imgg}}.webp" alt="" />
+            <b
+              >{{itenary.CarrierName}}<br />
+              <span>{{allowance}}</span></b
+            >
+          </td>
+          <td>
+            <b>{{depfrom}}, {{ArrAirPort}} <br />Airport, {{departureTerminalName}}</b>
+          </td>
+          <td>
+            <b>{{arrto}}, {{DepAirPort}} <br />Airport, {{arrivalTerminalName}}</b>
+          </td>
+          <td><b>{{stop}}, {{Duration}}</b></td>
+          <td><b>W, Economy</b></td>
+        </tr>
+        <tr>
+          <td id="airline-code">
+            <img id="logo" src="https://flyjatt-b2b.sgp1.cdn.digitaloceanspaces.com/airlines/logo/{{imgg}}.webp" alt="" />
+            <b
+              >{{itenary.CarrierName}} <br />
+              <span> BG 475</span></b
+            >
+          </td>
+          <td>
+            <b> {{depfrom}}, {{ArrAirPort}} <br />Airport, {{departureTerminalName}}</b>
+          </td>
+          <td>
+            <b> {{arrto}}, {{DepAirPort}} <br />Airport,  {{arrivalTerminalName}}</b>
+          </td>
+          <td><b>{{stop}},{{Duration}}</b></td>
+          <td><b>W, {{itenary.Cabinclass}}</b></td>
+        </tr>
+      </table>
+    </div>
+    <!-- PASSENGER DETAILS Table -->
+    <div>
+      <h2 id="table-title">PASSENGER DETAILS</h2>
+      <table id="passenger-table">
+        <tr>
+          <th>Passenger Name</th>
+          <th>Pax Type</th>
+          <th>Bag Allowance</th>
+          <th>E Ticket</th>
+        </tr>
+        <tr>
+          <td><b>{{name}}</b></td>
+          <td>
+            <b>{{PaxType}}</b>
+          </td>
+          <td>
+            <b>{{bag}}</b>
+          </td>
+          <td>
+            <b> {{ticketnumber}}</b>
+          </td>
+        </tr>
+      </table>
+      <ul>
+        <li>
+          <b>Baggage allowances apply to each passenger in your booking.</b>
+        </li>
+      </ul>
+      <p><b>Email:</b> <span class="gray-color">{{email}}</span></p>
+      <p><b>Phone:</b> <span class="gray-color">{{phone}}</span></p>
+    </div>
+
+    <!-- PRICE BREAKDOWN Table -->
+    <div>
+      <h2 id="table-title">PRICE BREAKDOWN</h2>
+      <table id="price-breakdown-table">
+        <tr>
+          <th>Pax Type</th>
+          <th>Base Fare</th>
+          <th>Tax</th>
+          <th>Count</th>
+          <th>Total Fare</th>
+        </tr>
+        <tr>
+          <td><b>{{PaxType}}</b></td>
+          <td>
+            <b>৳ {{itenary.BaseFare}}</b>
+          </td>
+          <td>
+            <b> ৳ {{itenary.Taxes}} </b>
+          </td>
+          <td>
+            <b>{{PaxCount}}</b>
+          </td>
+          <td><b>৳ {{TotalFare}}</b></td>
+        </tr>
+        <tr>
+          <td><b>{{PaxType}}</b></td>
+          <td>
+            <b>৳ {{itenary.BaseFare}}</b>
+          </td>
+          <td>
+            <b> ৳ {{itenary.Taxes}} </b>
+          </td>
+          <td>
+            <b> {{PaxCount}}</b>
+          </td>
+          <td><b>৳ {{TotalFare}}</b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><b>TOTAL AMOUNT</b></td>
+          <td><b>৳ {{totalFareSum}}</b></td>
+        </tr>
+      </table>
+      <div>
+        <div class="sub-total">
+          <p id="amount">Base fare total amount <span>৳ {{itenary.BaseFare}}</span></p>
+          <p id="amount">Discount <span>৳ {{discount}}</span></p>
+          <p id="amount">Tax <span>৳ {{itenary.Taxes}}</span></p>
+          <p id="amount">AIT & VAT <span>৳ {{vat}}</span></p>
+          <p id="amount">
+            <b>Total Ticket fare Amount </b><span><b>৳ {{totalFareSum}}</b></span>
+          </p>
+        </div>
+
+        <p id="sub-total-note">
+          In Words : {{textTk}}
+        </p>
+      </div>
+    </div>
+     
+  </body>
+</html>

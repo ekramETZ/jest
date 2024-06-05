@@ -1,0 +1,218 @@
+{
+  "bookingdata": {
+      "id": 51,
+      "agentId": "EZA1000",
+      "bookingId": "EZB1050",
+      "system": "Portal",
+      "triptype": "Oneway",
+      "pnr": "KWUQVP",
+      "airlinespnr": "83WFXF",
+      "carrier_name": "US-Bangla Airlines",
+      "carrier_code": "BS",
+      "depfrom": "DAC",
+      "arrto": "DXB",
+      "refundable": "1",
+      "instant_payment": false,
+      "issue_permit": "manual",
+      "status": "Hold",
+      "payment_status": null,
+      "netfare": 50778,
+      "grossfare": 55802,
+      "name": "MD KAYES HOSSAN FUAD",
+      "email": "dev@flyjatt.com",
+      "phone": "016853704",
+      "adultcount": 1,
+      "childcount": 1,
+      "infantcount": 0,
+      "totalpax": 2,
+      "ticketcopy": null,
+      "ticketed_at": null,
+      "purchaseprice": null,
+      "sellprice": null,
+      "comission": -13,
+      "totalsegment": 1,
+      "timelimit": "2024-06-02T20:06:00.000Z",
+      "flightdate": "2024-06-03T00:00:00.000Z",
+      "flightdata": null,
+      "itenary": {
+          "Taxes": 14852,
+          "System": "Sabre",
+          "Carrier": "BS",
+          "NetFare": 50778.5,
+          "OfferId": "55da8839-c754-42df-b806-e740ef55ef63",
+          "BaseFare": 40950,
+          "FareType": "Regular",
+          "ResultId": "",
+          "TripType": "Oneway",
+          "Comission": -13,
+          "GrossFare": 55802,
+          "TimeLimit": "2024-06-02T20:05:00",
+          "Cabinclass": "Economy",
+          "FarePolicy": "sito",
+          "IsBookable": false,
+          "Refundable": true,
+          "AllLegsInfo": [
+              {
+                  "ArrTo": "DXB",
+                  "DepDate": "2024-06-03",
+                  "DepFrom": "DAC",
+                  "Duration": 435,
+                  "Segments": [
+                      {
+                          "ArrTo": "DXB",
+                          "ArrTime": "2024-06-03T11:30:00+04:00",
+                          "DepFrom": "DAC",
+                          "DepTime": "2024-06-03T06:15:00+06:00",
+                          "Duration": 435,
+                          "StopCount": 1,
+                          "ArrAirPort": "Dubai Intl Airport",
+                          "DepAirPort": "Hazrat Shahjalal Intl Airport",
+                          "OperatedBy": "US-Bangla Airlines",
+                          "ArrLocation": "Dubai,UNITED ARAB EMIRATES",
+                          "ArrivalGate": "1",
+                          "DepLocation": "Dhaka,BANGLADESH",
+                          "HiddenStops": [
+                              {
+                                  "city": "CGP",
+                                  "airport": "CGP",
+                                  "country": "BD",
+                                  "airMiles": 2312,
+                                  "equipment": "738",
+                                  "arrivalTime": "07:00:00+06:00",
+                                  "elapsedTime": 45,
+                                  "departureTime": "07:45:00+06:00",
+                                  "elapsedLayoverTime": 45
+                              }
+                          ],
+                          "SegmentCode": {
+                              "cabinCode": "Y",
+                              "bookingCode": "K",
+                              "seatsAvailable": 9,
+                              "availabilityBreak": true
+                          },
+                          "DepartureGate": "1",
+                          "TotalMilesFlown": 2451,
+                          "AircraftTypeName": "738",
+                          "MarketingCarrier": "BS",
+                          "OperatingCarrier": "BS",
+                          "ArrDateAdjustment": 0,
+                          "DepDateAdjustment": 0,
+                          "MarketingCarrierName": "USBangla Airlines",
+                          "OperatingCarrierName": "USBangla Airlines",
+                          "MarketingFlightNumber": 343,
+                          "OperatingFlightNumber": 343
+                      }
+                  ]
+              }
+          ],
+          "CarrierName": "US-Bangla Airlines",
+          "IssuePermit": "manual",
+          "PartialFare": 15233.55,
+          "PartialOption": true,
+          "InstantPayment": false,
+          "PriceBreakDown": [
+              {
+                  "Bag": [
+                      {
+                          "Airline": "BS",
+                          "Allowance": "30 KG"
+                      }
+                  ],
+                  "Taxes": 9426,
+                  "PaxType": "ADT",
+                  "BaseFare": 23400,
+                  "PaxCount": 1,
+                  "TotalFare": 32826,
+                  "FareComponent": [
+                      {
+                          "Origin": "DAC",
+                          "Carrier": "BS",
+                          "DepDate": "2024-06-03",
+                          "Destination": "DXB",
+                          "FareBasisCode": "KBDXBPO"
+                      }
+                  ]
+              },
+              {
+                  "Bag": [
+                      {
+                          "Airline": "BS",
+                          "Allowance": "30 KG"
+                      }
+                  ],
+                  "Taxes": 5426,
+                  "PaxType": "CNN",
+                  "BaseFare": 17550,
+                  "PaxCount": 1,
+                  "TotalFare": 22976,
+                  "FareComponent": [
+                      {
+                          "Origin": "DAC",
+                          "Carrier": "BS",
+                          "DepDate": "2024-06-03",
+                          "Destination": "DXB",
+                          "FareBasisCode": "KBDXBPO/CH25"
+                      }
+                  ]
+              }
+          ]
+      },
+      "companyname": "Fly Jatt Travel",
+      "created_at": "2024-06-02T12:06:44.000Z",
+      "updated_at": "2024-06-02T12:06:44.000Z",
+      "uid": "f62cd65b-b2a5-4cdb-9e54-59d70ca50786"
+  },
+  "sabredata": [],
+  "passengerdata": [
+      {
+          "id": 58,
+          "agentId": "EZA1000",
+          "bookingId": "EZB1050",
+          "prefix": "MR",
+          "givenname": "MD KAYES HOSSAN",
+          "surname": "FUAD",
+          "dob": "1998-01-11",
+          "type": "ADT",
+          "nationality": "BD",
+          "document": "BN7643743",
+          "expiredate": "2032-08-30",
+          "phone": null,
+          "email": null,
+          "ticketnumber": null,
+          "ticketstatus": null,
+          "gender": "MALE",
+          "passport": null,
+          "visa": null,
+          "created_at": "2024-06-02T12:06:44.000Z",
+          "updated_at": "2024-06-02T12:06:44.000Z",
+          "uid": "ac7880c8-31fd-447b-9541-80b40be7fab8"
+      },
+      {
+          "id": 59,
+          "agentId": "EZA1000",
+          "bookingId": "EZB1050",
+          "prefix": "MSTR",
+          "givenname": "MD",
+          "surname": "HASAN",
+          "dob": "2020-06-03",
+          "type": "CNN",
+          "nationality": "BD",
+          "document": "CVVF",
+          "expiredate": "2024-12-03",
+          "phone": null,
+          "email": null,
+          "ticketnumber": null,
+          "ticketstatus": null,
+          "gender": "MALE",
+          "passport": null,
+          "visa": null,
+          "created_at": "2024-06-02T12:06:44.000Z",
+          "updated_at": "2024-06-02T12:06:44.000Z",
+          "uid": "623e77cc-2006-4f85-ac5b-c20fabdb024d"
+      }
+  ],
+  "refunddata": null,
+  "reissuedata": [],
+  "ticketdetails": [],
+  "partialpaymentdata": null
+}

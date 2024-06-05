@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Flight Ticket</title>
+
+    <style>
+      @import
+      url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      body { font-family: "poppins", "sans-serif"; padding: 60px; } .ticket-info
+      { display: flex; justify-content: space-between; } #ticket-id { font-size:
+      17px; color: #003566; } .gray-color { color: #8e95ab; } .date-type {
+      width: 40%; margin-top: 21px; display: flex; align-items: center;
+      justify-content: space-between; } #table-title { color: #003566;
+      font-size: 20px; font-weight: 500; margin-top: 23px; margin-bottom: 18px;
+      } #airline-code { display: flex; flex-direction: row; align-items: center;
+      gap: 5px; } #logo { width: 25px; height: 25px; } #details-table {
+      border-collapse: collapse; width: 100%; border: 2px solid #8e95ab; }
+      #details-table td { background-color: white; } #details-table td,
+      #details-table th { border: none; padding: 8px; } #details-table
+      tr:nth-child(even) { background-color: #eef2f5; } #details-table tr {
+      border: 2px solid #eef2f5; } #details-table tr:hover { background-color:
+      #ddd; } #details-table th { padding-top: 12px; padding-bottom: 12px;
+      text-align: left; background-color: #8e95ab; color: #eef2f5; }
+      #passenger-table { border-collapse: collapse; width: 60%; border: 2px
+      solid #8e95ab; } #passenger-table td { background-color: white; }
+      #passenger-table td, #passenger-table th { border: none; padding: 8px; }
+      #passenger-table tr:nth-child(even) { background-color: #eef2f5; }
+      #passenger-table tr:hover { background-color: #ddd; } #passenger-table th
+      { padding-top: 12px; padding-bottom: 12px; text-align: left;
+      background-color: #8e95ab; color: #eef2f5; } #price-breakdown-table {
+      border-collapse: collapse; width: 100%; border: 2px solid #8e95ab; }
+      #price-breakdown-table td { background-color: white; }
+      #price-breakdown-table td, #price-breakdown-tableth { padding: 8px; }
+      #price-breakdown-table tr { border: 2px solid #8e95ab; }
+      #price-breakdown-table tr:nth-child(even) { background-color: #eef2f5; }
+      #price-breakdown-table tr:hover { background-color: #ddd; }
+      #price-breakdown-table th { padding-top: 12px; padding-bottom: 12px;
+      text-align: left; background-color: #8e95ab; color: #eef2f5; } /* sub
+      total */ .sub-total { width: 40%; margin-top: 35px; padding-left: 8px;
+      padding-right: 8px; border: 2px solid #8e95ab; } #amount { display: flex;
+      justify-content: space-between; } #sub-total-note { color: #003566;
+      font-size: 16px; font-weight: 500; margin-top: 23px; margin-bottom: 18px;
+      } #note-description { color: #8e95ab; }
+    </style>
+  </head>
+  <body>
+    <div class='ticket-info'>
+      <div>
+        <h1>Zinga Lala</h1>
+        <p class='gray-color'>Mirpur- 3, Dhaka 1216</p>
+        <p>
+          <b>Email:</b>
+          <span class='gray-color'>support@exapmlae.com</span>
+        </p>
+        <p><b>Phone:</b><span class='gray-color'>0451548154</span></p>
+      </div>
+      <p id='ticket-id'><b>e-Ticket #789542</b></p>
+    </div>
+    <div class='date-type'>
+      <p><strong>Date: 31 May 2022</strong></p>
+      <p><strong>PNR: AFASUAUJ</strong></p>
+      <p><strong>FLIGHT TYPE: DOMESTIC & ONE WAY</strong></p>
+    </div>
+    <!-- Hotel Details Table -->
+    <div>
+      <h2 id='table-title'>FLIGHT ITNERARIES</h2>
+      <table id='details-table'>
+        <tr>
+          <th>Airlines : {{name}}</th>
+          <th>Departure</th>
+          <th>Arrival</th>
+          <th>Stops</th>
+          <th>Class</th>
+        </tr>
+        <tr>
+          <td id='airline-code'>
+            <img id='logo' src='https://i.ibb.co/X2Zk8VT/logo.png' alt='' />
+            <b>Biman Bangladesh
+              <br />
+              <span> BG 475</span></b>
+          </td>
+          <td>
+            <b> DAC, Hazrat Sha Jala Int <br />Airport, Terminal-01</b>
+          </td>
+          <td>
+            <b> DXB, Dubai Int <br />Airport, Terminal-01</b>
+          </td>
+          <td><b>Non Stop, 25H 45Min</b></td>
+          <td><b>W, Economy</b></td>
+        </tr>
+        <tr>
+          <td id='airline-code'>
+            <img id='logo' src='./logo.png' alt='' />
+            <b>Biman Bangladesh
+              <br />
+              <span> BG 475</span></b>
+          </td>
+          <td>
+            <b> DAC, Hazrat Sha Jala Int <br />Airport, Terminal-01</b>
+          </td>
+          <td>
+            <b> DXB, Dubai Int <br />Airport, Terminal-01</b>
+          </td>
+          <td><b>Non Stop, 25H 45Min</b></td>
+          <td><b>W, Economy</b></td>
+        </tr>
+      </table>
+    </div>
+    <!-- PASSENGER DETAILS Table -->
+    <div>
+      <h2 id='table-title'>PASSENGER DETAILS</h2>
+      <table id='passenger-table'>
+        <tr>
+          <th>Passenger Name</th>
+          <th>Pax Type</th>
+          <th>Bag Allowance</th>
+          <th>E Ticket</th>
+        </tr>
+        <tr>
+          <td><b>Mr. XYZ</b></td>
+          <td>
+            <b>Adult</b>
+          </td>
+          <td>
+            <b> 30kg</b>
+          </td>
+          <td>
+            <b> A DA48941841</b>
+          </td>
+        </tr>
+      </table>
+      <ul>
+        <li>
+          <b>Baggage allowances apply to each passenger in your booking.</b>
+        </li>
+      </ul>
+      <p><b>Email:</b> <span class='gray-color'>example@gmail.com</span></p>
+      <p><b>Phone:</b> <span class='gray-color'>0451548154</span></p>
+    </div>
+
+    <!-- PRICE BREAKDOWN Table -->
+    <div>
+      <h2 id='table-title'>PRICE BREAKDOWN</h2>
+      <table id='price-breakdown-table'>
+        <tr>
+          <th>Pax Type</th>
+          <th>Base Fare</th>
+          <th>Tax</th>
+          <th>Count</th>
+          <th>Total Fare</th>
+        </tr>
+        <tr>
+          <td><b>Adult</b></td>
+          <td>
+            <b>90,000</b>
+          </td>
+          <td>
+            <b> 4,500 </b>
+          </td>
+          <td>
+            <b> 1</b>
+          </td>
+          <td><b>10,500</b></td>
+        </tr>
+        <tr>
+          <td><b>Child</b></td>
+          <td>
+            <b>90,000</b>
+          </td>
+          <td>
+            <b> 4,500 </b>
+          </td>
+          <td>
+            <b> 1</b>
+          </td>
+          <td><b>10,500</b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><b>TOTAL AMOUNT</b></td>
+          <td><b>104,500 BDT</b></td>
+        </tr>
+      </table>
+      <div>
+        <div class='sub-total'>
+          <p id='amount'>Base fare total amount <span>94,500 BDT</span></p>
+          <p id='amount'>Discount <span>8,500 BDT</span></p>
+          <p id='amount'>Tax <span>94,500 BDT</span></p>
+          <p id='amount'>AIT & VAT <span>8,500 BDT</span></p>
+          <p id='amount'>
+            <b>Total Ticket fare Amount </b><span><b>104,500 BDT</b></span>
+          </p>
+        </div>
+
+        <p id='sub-total-note'>
+          In words: Three thousand one hundred and seventy-eight
+        </p>
+      </div>
+    </div>
+     </body>
+</html>
