@@ -144,7 +144,8 @@ describe('BookingService', () => {
         bookingId: '123',
         agentId: '456', 
         email: 'test@example.com', 
-        flightdata: '{}', 
+        flightdata: '[{"meals": [{"code": "M", "description": "Meal"}], "itemId": "12", "sourceType": "ATPCO", "airlineCode": "EK", "airlineName": "EMIRATES", "arrivalDate": "2024-05-23", "arrivalGate": "3", "arrivalTime": "13:15:00", "bookingClass": "L", "flightNumber": 583, "cabinTypeCode": "Y", "cabinTypeName": "ECONOMY", "departureDate": "2024-05-23", "departureGate": "1", "departureTime": "10:15:00", "numberOfSeats": 1, "toAirportCode": "DXB", "confirmationId": "CML7ES", "distanceInMiles": 2202, "fromAirportCode": "DAC", "travelerIndices": [1], "aircraftTypeCode": "77W", "aircraftTypeName": "BOEING 777-300ER", "flightStatusCode": "HK", "flightStatusName": "Confirmed", "durationInMinutes": 300, "identityDocuments": [{"itemId": "53af00d84f8ab2a4ffe525725e9961e6289c18801e9249082fc640d0735d1b7956c9d393f29e67ba39b18d90e51dbf7b03af74c72609f573b42e8f00a1107d9e", "status": "Confirmed"}, {"itemId": "299025c40f93049b2585908dd197fb79c8182d21b539f773f43f5e79fcf998ead2c1ac23035419f7001d213f06851bb66022539b383606d2a4d608e3cf671734", "status": "Confirmed"}], "arrivalTerminalName": "TERMINAL 3", "operatingAirlineCode": "EK", "operatingAirlineName": "EMIRATES", "departureTerminalName": "TERMINAL 1", "operatingFlightNumber": 583}]',
+        companyname: 'AIR TRIP RAVELS AND TOURSIM',
         flightdate: new Date(), 
         itenary: { 
               Carrier: "BS",

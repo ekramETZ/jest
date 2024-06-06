@@ -64,7 +64,7 @@ export class BookingService {
 
  async generateTicket(bookingId: string): Promise<void> {
   const booking = await this.BookingRepository.findOneBy({ bookingId: bookingId });
-  
+  console.log(booking)
   if (!booking) {
     throw new NotFoundException(`Booking with ID ${bookingId} not found`);
   }
@@ -91,7 +91,7 @@ export class BookingService {
   
 
   const flightDataArray = JSON.parse(booking.flightdata);
-  //console.log(flightDataArray);
+  //console.log(booking.flightdata);
   // Access the arrivalTerminalName
   const arrivalTerminalName = flightDataArray[0]?.arrivalTerminalName;
   const departureTerminalName = flightDataArray[0]?.departureTerminalName;
@@ -218,7 +218,7 @@ const formattedDate = formatDate(booking.flightdate);
   };
   //
   
-console.log(data);
+//console.log(data);
 
 
 
